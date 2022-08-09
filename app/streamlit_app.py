@@ -1,4 +1,4 @@
-#Project by Mandar, Date: 10-05-2022
+#Project by Amit Jaiwal, 
 
 
 #importing required libraries
@@ -10,7 +10,7 @@ import pickle
 
 
 def get_file_content_as_string(path):
-    url = 'https://raw.githubusercontent.com/Mandarkende1722/Sales-Forecasting/main/app/' + path
+    url = 'https://raw.githubusercontent.com/Amitjaiwal/Sales-Forecasting/main/app/' + path
     
     response = urllib.request.urlopen(url)
     return response.read().decode("utf-8")
